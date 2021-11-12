@@ -1,0 +1,55 @@
+@media screen and (max-width: 870px){
+	.sidebar{
+		display: none;
+	}
+
+	#btn{
+		display: flex;
+		position: absolute;
+		margin-left: 380px;
+		margin-top: -20px;
+		background: #1e2939;
+		color: #fff;
+		font-size: 14px;
+   		font-weight: 700;
+   		border-radius: 20%;
+   		z-index: 3;
+	}
+
+	.show{
+		display: block;
+		position: absolute;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.active{
+		background: #1e2939;
+		color: #000;
+	}
+}
+
+@media screen and (max-width: 686px){
+	.my_name{
+		font-size: 35px;
+	}
+
+	.my_discription{
+		font-size: 10px;
+	}
+	#btn{
+		margin-left: 310px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.main_container{
+		width: 471px;
+	}
+}
+
+@media screen and (max-width: 360px){
+	.main_container{
+		width: 560px;
+	}
+}
